@@ -1,6 +1,16 @@
 # Spatial differences in 9 metabolites among Lake Winnipeg walleye from 3 sites in 2017
 # This script corresponds to the section of the manuscript titled "Modeling Metabolite Differences". At the end is the method used to create Figure 6 with the predicted values for each metabolite by site. 
 
+# Note, not all of these libraries may have been used in this script.
+library(tidyverse)
+library(WRS2)
+library(car)
+library(emmeans)
+library(broom)
+library(sjstats)
+library(cowplot)
+library(jtools)
+
 # Read the metabolite data
 select_metabolites <- read_delim("select_metabolites.txt", delim = "\t")
 

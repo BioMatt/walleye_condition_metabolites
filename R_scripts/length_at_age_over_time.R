@@ -3,6 +3,16 @@
 # Then looks at each of 6 sites individually, between the years 20012 and 2018
 # Figures 3 and 4 are the outputs of this script. 
 
+# Note, not all of these libraries may have been used in this script.
+library(tidyverse)
+library(WRS2)
+library(car)
+library(emmeans)
+library(broom)
+library(sjstats)
+library(cowplot)
+library(jtools)
+
 # Looking at the gill net index data. A much bigger file
 # Downloaded from: https://www.gov.mb.ca/sd/fish_and_wildlife/fish/commercial_fishing/netting_data.html
 # Sauger and dwarf walleye were removed prior to analysis in R

@@ -1,6 +1,16 @@
 # Lake Winnipeg walleye length-mass relationships over time
 # This corresponds to the manuscript section "Lake Winnipeg Walleye Length-Mass Relationships"
 
+# Note, not all of these libraries may have been used in this script.
+library(tidyverse)
+library(WRS2)
+library(car)
+library(emmeans)
+library(broom)
+library(sjstats)
+library(cowplot)
+library(jtools)
+
 # Looking at the gill net index data. A much bigger file
 # Downloaded from: https://www.gov.mb.ca/sd/fish_and_wildlife/fish/commercial_fishing/netting_data.html
 # Sauger and dwarf walleye were removed prior to analysis in R

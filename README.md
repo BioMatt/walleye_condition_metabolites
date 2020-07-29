@@ -1,5 +1,6 @@
 ## This repository contains scripts used in the manuscript "Morphology and Blood Metabolites Reflect Recent Spatial Differences Among Lake Winnipeg Walleye, *Sander vitreus*"
 ##### A repository for scripts used in statistical analyses of Lake Winnipeg walleye length-at-age over time and between sites, length-mass relationships over time and in 2017, and metabolites in 2017. 
+##### Now published in the *Journal of Great Lakes Research* https://www.sciencedirect.com/science/article/abs/pii/S0380133020301374
 
 ### Within the R_scripts folder, there are four scripts and one data file:
   - `length-mass_over_time.R` contains code for reproducing analyses in the section *Lake Winnipeg Walleye Length-Mass Relationships*
